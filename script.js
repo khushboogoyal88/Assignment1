@@ -11,10 +11,10 @@ var mydiv = document.createElement("div"); // creates element div and sets id to
 mydiv.setAttribute("id", "tile-wrapper");
 document.body.appendChild(mydiv); // appends this div to body.
 mydiv.style.width = "100%";
-mydiv.style.textAlign = "center%";
-mydiv.style.fontFamily = "impact%";
-mydiv.style.position = "absolute%";
-mydiv.style.color = "white%";
+mydiv.style.textAlign = "center";
+mydiv.style.fontFamily = "impact";
+mydiv.style.position = "absolute";
+mydiv.style.color = "white";
 mydiv.style.top = "50%";
 mydiv.style.textTransform = "uppercase";
 
