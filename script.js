@@ -10,14 +10,23 @@ document.addEventListener("DOMContentLoaded", startSript); // function starts wh
 var mydiv = document.createElement("div"); // creates element div and sets id to title wrapper.
 mydiv.setAttribute("id", "tile-wrapper");
 document.body.appendChild(mydiv); // appends this div to body.
-mydiv.classList.add("uppercase");
+mydiv.style.width = "100%";
+mydiv.style.textAlign = "center%";
+mydiv.style.fontFamily = "impact%";
+mydiv.style.position = "absolute%";
+mydiv.style.color = "white%";
+mydiv.style.top = "50%";
+mydiv.style.textTransform = "uppercase";
 
 // Element created with id title
 var myTitle = document.createElement("h1");
 myTitle.setAttribute("id", "title");
 myTitle.innerText = "Work under progress";
 mydiv.appendChild(myTitle);
-myTitle.classList.add("white");
+myTitle.style.width = "fit-content";
+myTitle.style.margin = "auto";
+myTitle.style.background = "black";
+myTitle.style.color = "white";
 
 // Generating ul and li
 var list = document.createElement("ul");
